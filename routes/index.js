@@ -35,7 +35,7 @@ router.get('/api/card', (req, res, next) => {
     } else {
       res.send(data)
     }
-  }, 1000);
+  }, 1000); // loading바를 테스트하기 위한 느린 응답
 });
 
 router.get('/api/image/:image', (req, res) => {
